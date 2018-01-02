@@ -22,6 +22,33 @@
             android:layout_height="@dimen/top_title_size"
             android:layout_gravity="center"
             app:srcCompat="@drawable/title_logo_small" />
+
+        <FrameLayout
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/menu_alert"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/alert_icon"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                />
+            <TextView
+                android:id="@+id/badge_alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@color/transparent_gray"
+                android:textSize="14dp"
+                android:text="0"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_gravity="top|right"
+                android:textColor="@color/white"
+                />
+        </FrameLayout>
     </FrameLayout>
 
     <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
@@ -102,8 +129,8 @@
                     android:id="@+id/badge_chat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/transparent_window"
-                    android:textSize="15dp"
+                    android:background="@color/transparent_gray"
+                    android:textSize="14dp"
                     android:layout_marginRight="10dp"
                     android:text="0"
                     android:paddingLeft="5dp"
@@ -119,32 +146,15 @@
                 android:layout_height="match_parent"
                 android:background="@color/whiteTranparent"
                 />
-            <FrameLayout
+            <ImageView
+                android:id="@+id/menu_log"
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:id="@+id/menu_log"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:clickable="true"
-                    android:src="@drawable/menu_log_s"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    />
-                <TextView
-                    android:id="@+id/badge_log"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/transparent_window"
-                    android:textSize="15dp"
-                    android:layout_marginRight="10dp"
-                    android:text="0"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:layout_gravity="top|right"
-                    android:textColor="@color/white"
-                    />
-            </FrameLayout>
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:src="@drawable/menu_log_s"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                />
             <View
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="3dp"
