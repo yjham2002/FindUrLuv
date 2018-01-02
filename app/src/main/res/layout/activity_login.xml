@@ -47,6 +47,7 @@
             app:backgroundTint="@color/themeColor"/>
 
         <android.support.v7.widget.AppCompatButton
+            android:theme="@style/AppThemeSolidWhite"
             android:id="@+id/btn_join"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

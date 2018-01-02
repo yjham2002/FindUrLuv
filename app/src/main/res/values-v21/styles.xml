@@ -26,6 +26,10 @@
         <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
     </style>
 
+    <style name="AppThemeSolidWhite" parent="AppThemeSolid">
+        <item name="android:colorControlHighlight">@color/themeColor</item>
+    </style>
+
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

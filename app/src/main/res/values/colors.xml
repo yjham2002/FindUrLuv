@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#9b1657</color>
     <color name="colorPrimaryDark2">#111111</color>
     <color name="themeColor">#c91b71</color>
+    <color name="themeColorAccent">#94c91b71</color>
     <color name="colorAccent">#000000</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="white">#FFFFFF</color>
