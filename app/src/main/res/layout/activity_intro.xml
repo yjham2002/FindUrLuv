@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="kr.co.picklecode.findurluv.IntroActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@mipmap/ic_main_logo" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intro_title_size"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/title_logo_small" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="@dimen/progress_size"
+        android:layout_height="@dimen/progress_size" />
+</LinearLayout>

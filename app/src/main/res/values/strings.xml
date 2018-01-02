@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">내님은 어디에</string>
+    <string name="reg_msg">아직 회원이 아니신가요?</string>
+    <string name="share_using">이 페이지를 공유</string>
+    <string name="agreement">이용약관</string>
+
+    <string name="facebook_app_id">2081418748760718</string>
+    <string name="fb_login_protocol_scheme">fb2081418748760718</string>
+
+</resources>
+
